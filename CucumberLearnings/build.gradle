@@ -1,0 +1,26 @@
+group 'com.cucumber.tv'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.5
+
+repositories {
+    mavenCentral()
+    maven {
+        url 'http://repo1.maven.org/maven2'
+    }
+    maven {
+        url "http://repo.bodar.com"
+    }
+}
+
+ext.cukesVersion = '1.2.4'
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile group: 'info.cukes', name: 'cucumber-junit', version: "$cukesVersion"
+    compile group: 'info.cukes', name: 'cucumber-core', version: "$cukesVersion"
+    compile group: 'info.cukes', name: 'cucumber-java8', version: "$cukesVersion"
+    compile('org.seleniumhq.selenium:selenium-java:2.53.0')
+    compile group: 'net.masterthought', name: 'cucumber-reporting', version: "0.4.0"
+}
