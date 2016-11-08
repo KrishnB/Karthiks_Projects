@@ -1,0 +1,10 @@
+{
+  "validLogin" : {
+    "email":"vinaykumarvvs1936@gmail.com",
+    "password":"asdfgh"
+  },
+  "invalidLogin" : {
+    "email":"kakka@gmail.com",
+    "password":"emilia"
+  }
+}

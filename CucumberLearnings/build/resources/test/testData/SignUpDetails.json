@@ -1,0 +1,25 @@
+{
+  "validSignUp" :{
+    "mailId":"karthikpenujuru@yahoo.in",
+    "confirmMailId":"karthikpenujuru@yahoo.in",
+    "password":"karthik@45",
+    "confirmPassword":"karthik@45",
+    "title" : "Mr",
+    "firstname":"karthik",
+    "lastname":"penujuru",
+    "mobileNum":"12345678901",
+    "confirmMobileNum":"12345678901"
+  },
+  "inValidSignUp" :{
+    "mailId":"karthikpenujuru@yahoo.in",
+    "confirmMailId":"karthikpenujuru@yahoo.in",
+    "password":"karthik@45",
+    "confirmPassword":"karthi",
+    "title" : "Mr",
+    "firstname":"karthik",
+    "lastname":"penujuru",
+    "mobileNum":"12345678901",
+    "confirmMobileNum":"12345678901"
+
+  }
+}
